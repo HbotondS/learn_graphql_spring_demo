@@ -1,0 +1,4 @@
+# all queries available on the server
+type Query {
+    bankAccount(id: ID): BankAccount
+}

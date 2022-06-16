@@ -1,0 +1,5 @@
+enum Currency {
+    HUF
+    EUR
+    GBP
+}
