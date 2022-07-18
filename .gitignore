@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local maven repo ###
+mvn_repo
+mvn_config
