@@ -9,3 +9,9 @@ server:
 graphql:
   servlet:
     maxQueryDepth: 5
+  # only for development (easier testing)
+  playground:
+    tabs:
+      - name: Bank account sample query
+        query: classpath:playground/bank_account.graphql
+        variables: classpath:playground/bank_account_variables.json
